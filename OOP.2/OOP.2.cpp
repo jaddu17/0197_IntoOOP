@@ -18,4 +18,10 @@ class bangunDatar {
 		float hitungLuas() {
 			return panjang * lebar;
 		}
+
+		void dipslay() {
+			cout << "Panjangnya = " << panjang << endl;
+			cout << "Lebarnya = " << lebar << endl;
+			cout << "Luasnya = " << hitungLuas() << endl;
+		}
 };
