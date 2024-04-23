@@ -19,7 +19,7 @@ class bangunDatar {
 			return panjang * lebar;
 		}
 
-		void dipslay() {
+		void display() {
 			cout << "Panjangnya = " << panjang << endl;
 			cout << "Lebarnya = " << lebar << endl;
 			cout << "Luasnya = " << hitungLuas() << endl;
@@ -27,5 +27,9 @@ class bangunDatar {
 };
 
 int main() {
+	bangunDatar pp; // deklarasi objek pp dari class bangunDatar
+	pp.input();
+	pp.display();
 
+	return 0;
 }
